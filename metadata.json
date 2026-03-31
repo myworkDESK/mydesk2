@@ -1,0 +1,5 @@
+{
+  "name": "DashOn Task Manager",
+  "description": "A neumorphic task management dashboard with analytics and real-time tracking.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f0f2f5;
+  --color-sidebar: #f8f9fa;
+  --color-card: #ffffff;
+  
+  --shadow-neumorphic: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
+  --shadow-neumorphic-sm: 4px 4px 8px #d1d9e6, -4px -4px 8px #ffffff;
+  --shadow-neumorphic-inset: inset 4px 4px 8px #d1d9e6, inset -4px -4px 8px #ffffff;
+  
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-700 font-sans;
+  }
+}
+
+.neumorphic {
+  box-shadow: var(--shadow-neumorphic);
+}
+
+.neumorphic-sm {
+  box-shadow: var(--shadow-neumorphic-sm);
+}
+
+.neumorphic-inset {
+  box-shadow: var(--shadow-neumorphic-inset);
+}
