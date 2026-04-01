@@ -1,0 +1,10 @@
+name = "Worker-bolek"
+main = "src/worker.ts"
+compatibility_date = "2024-09-23"
+
+# Set GEMINI_API_KEY as a secret via:
+#   wrangler secret put GEMINI_API_KEY --config wrangler.worker.toml
+# or in the Cloudflare Workers dashboard under Settings > Variables.
+
+[vars]
+APP_ENV = "production"
